@@ -5,7 +5,9 @@ public class Commento {
 private int ID_Commento;
 
 private String Commento;
-
+public int getsbttrera() {
+	return 2;
+}
 public int getID_Commento() {
 	return ID_Commento;
 	
