@@ -8,6 +8,7 @@ private String Commento;
 
 public int getID_Commento() {
 	return ID_Commento;
+	
 }
 
 public void setID_Commento(int iD_Commento) {
