@@ -1,10 +1,9 @@
 package it.unical.ingswwebcomp22.spritesriver.model;
 import java.util.Date;
-import java.util.Date;
 
 public class Gioco {
 	
-	private int ID_Gioco;
+	private long ID_Gioco;
 	
 	private Date DataRilascio;
 	
@@ -58,12 +57,12 @@ public class Gioco {
 	}
 
 	
-	public int getID_Gioco() {
+	public long getID_Gioco() {
 		return ID_Gioco;
 	}
 
-	public void setID_Gioco(int iD_Gioco) {
-		ID_Gioco = iD_Gioco;
+	public void setID_Gioco(long l) {
+		ID_Gioco = l;
 	}
 	
 
