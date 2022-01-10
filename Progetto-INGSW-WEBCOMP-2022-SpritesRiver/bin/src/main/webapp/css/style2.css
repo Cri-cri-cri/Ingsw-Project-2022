@@ -76,10 +76,9 @@ font-size:large;
 	
 }
 #GodT{
-	
+	padding-right:890px;
 	font-size:50px;
 	height:100px;	
-	text-align:left;
 	font: fantasy;
 	
 }
@@ -95,9 +94,17 @@ font-size:large;
 	width: fit-content;
   height: fit-content;
 	}
-
+	#GoD{
+	font-size:30px;
+	
+	}
+	
+	#GodT{
+	font-size:30px;
+	
+	}
+	
 }
-
 #logo_piattaforma {
   width: 35px;
   height: 35px;

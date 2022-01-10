@@ -1,9 +1,15 @@
 package it.unical.ingswwebcomp22.spritesriver.model;
+import java.io.File;
+import java.util.Date;
 import java.util.Date;
 
 public class Gioco {
 	
-	private long ID_Gioco;
+	private int ID_Gioco;
+	
+	private File Image;
+	
+	private String ImagePath;
 	
 	private Date DataRilascio;
 	
@@ -57,12 +63,28 @@ public class Gioco {
 	}
 
 	
-	public long getID_Gioco() {
+	public int getID_Gioco() {
 		return ID_Gioco;
 	}
 
-	public void setID_Gioco(long l) {
-		ID_Gioco = l;
+	public void setID_Gioco(int iD_Gioco) {
+		ID_Gioco = iD_Gioco;
+	}
+
+	public File getImage() {
+		return Image;
+	}
+
+	public void setImage(File image) {
+		Image = image;
+	}
+
+	public String getImagePath() {
+		return ImagePath;
+	}
+
+	public void setImagePath(String imagePath) {
+		ImagePath = imagePath;
 	}
 	
 
