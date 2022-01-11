@@ -24,7 +24,7 @@ public class CommentoDAOJDBC implements CommentoDAO{
 	@Override
 	public void save(Commento c) {
 	try {	Connection conn = dbSource.getConnection();
-		String query = "INSERT INTO Gioco VALUES(?,?,?)";
+		String query = "INSERT INTO Commento VALUES(?,?,?)";
 		PreparedStatement st = conn.prepareStatement(query);
 		st.setInt(1, c.getID_Commento());
 		st.setString(3, c.getCommento());
@@ -66,7 +66,7 @@ public class CommentoDAOJDBC implements CommentoDAO{
 		List<Commento> commenti = new ArrayList<Commento>();
 		try {
 			Connection conn = dbSource.getConnection();
-			String query = "SELECT * FROM Gioco";
+			String query = "SELECT * FROM Commento";
 			Statement st = conn.createStatement();
 			ResultSet rs = st.executeQuery(query);
 			while (rs.next()) {
@@ -87,7 +87,7 @@ public class CommentoDAOJDBC implements CommentoDAO{
 	public void update(Commento c) {
 		try {
 			Connection conn = dbSource.getConnection();
-			String update = "UPDATE giocodesiderato SET ID_Gioco = ?, Titolo= ?,Data Rilascio= ?,Genere= ?, Piattaforma= ?, Immagine= ?, Percorso_Immagine= ?, Descrizione= ? WHERE ID_Gioco = ?";
+			String update = "UPDATE Commento SET ID_Commento = ?, String Commento = ?,Data = ? WHERE ID_Commento = ?";
 			PreparedStatement st = conn.prepareStatement(update);
 		
 			st.setInt(1, c.getID_Commento());

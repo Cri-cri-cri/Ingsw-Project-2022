@@ -6,6 +6,7 @@ import it.unical.ingswwebcomp22.spritesriver.model.DAO.SpriteDAO;
 import it.unical.ingswwebcomp22.spritesriver.model.DAO.UtenteDAO;
 import it.unical.ingswwebcomp22.spritesriver.model.DAOJDBC.CommentoDAOJDBC;
 import it.unical.ingswwebcomp22.spritesriver.model.DAOJDBC.GiocoDAOJDBC;
+import it.unical.ingswwebcomp22.spritesriver.model.DAOJDBC.SpriteDAOJDBC;
 import it.unical.ingswwebcomp22.spritesriver.model.DAOJDBC.UtenteDAOJDBC;
 
 public class DBManager {
@@ -17,7 +18,7 @@ private static DBManager instance = null;
 	static {
 		try {
 			Class.forName("org.postgresql.Driver");
-			//questi vanno messi in file di configurazione!!!	
+			
 			dataSource=new DBSource("jdbc:postgresql://localhost:5432/SpritesRiver","postgres","postgres");
 		} 
 		catch (Exception e) {

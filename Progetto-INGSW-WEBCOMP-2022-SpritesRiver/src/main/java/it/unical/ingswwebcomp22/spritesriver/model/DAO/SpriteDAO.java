@@ -5,10 +5,10 @@ import java.util.List;
 import it.unical.ingswwebcomp22.spritesriver.model.Sprite;
 
 public interface SpriteDAO {
-	public void save(SpriteDAO gd);  // Create
-	public SpriteDAO findByPrimaryKey(int idSprite);     // Retrieve
-	public List<SpriteDAO> findAll();       
-	public void update(SpriteDAO gd); //Update
-	public void delete(SpriteDAO gd); //Delete	
+	public void save(Sprite gd);  // Create
+	public Sprite findByPrimaryKey(int idSprite);     // Retrieve
+	public List<Sprite> findAll();       
+	public void update(Sprite gd); //Update
+	public void delete(Sprite gd); //Delete	
 
 }

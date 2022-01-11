@@ -9,16 +9,17 @@ public class Sprite {
 	
 	private File SpriteSheet;
 	
+	private File ImmaginePersonaggio;
 	
 	private String Personaggio;
 
 
-	public int getID_Animazione() {
+	public int getID_Sprite() {
 		return ID_Sprite;
 	}
 
-	public void setID_Animazione(int iD_Animazione) {
-		ID_Sprite = iD_Animazione;
+	public void setID_Sprite(int iD_Sprite) {
+		ID_Sprite = iD_Sprite;
 	}	
 
 	public String getPersonaggio() {
@@ -35,6 +36,14 @@ public class Sprite {
 
 	public void setSpriteSheet(File spriteSheet) {
 		SpriteSheet = spriteSheet;
+	}
+
+	public File getImmaginePersonaggio() {
+		return ImmaginePersonaggio;
+	}
+
+	public void setImmaginePersonaggio(File immaginePersonaggio) {
+		ImmaginePersonaggio = immaginePersonaggio;
 	}
 
 }
