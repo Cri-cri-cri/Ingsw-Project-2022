@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  position: relative;
+  text-align: center;
+  height: auto;
+  background: #141414;
+  color: #fff;
+  margin: auto;
+  padding-top: 5px;
+}
+
+#games2 {
+  min-height: 700px;
+}
+
+#user {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.name {
+  max-width: 1300px;
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+#set-ico {
+  margin-left: 10px;
+}
+
+#nome_utente {
+  width: 400px;
+  height: 100px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#settaggi {
+  background: #fff;
+  width: 145px;
+  height: 50px;
+  color: #141414;
+  margin: auto;
+}
+
+#wishlista {
+  width: 200px;
+  color: #fff;
+  background-color: rgba(44, 41, 41, 0.541);
+  margin: 0;
+}
+
+#wishlista:hover {
+  background-color: #ff6c0a;
+}
+
+#liblista {
+  width: 200px;
+  color: #fff;
+  background-color: rgba(51, 46, 46, 0.432);
+  margin: 0;
+}
+
+#liblista:hover {
+  background-color: #ff6c0a;
+}
+
+#button-bar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  padding: auto;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.accountbutton {
+  width: 150px;
+  font-size: 30px;
+  margin-top: 25px;
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+.empty {
+  margin-top: 300px;
+  width: 100%;
+  height: 500px;
+  font-size: 80px;
+  text-align: center;
+}

@@ -1,3 +1,5 @@
+// ciao
+
 package it.unical.ingswwebcomp22.spritesriver.model;
 
 import java.io.File;
