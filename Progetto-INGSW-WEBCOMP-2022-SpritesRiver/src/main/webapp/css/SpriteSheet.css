@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+.info-table {
+
+	width: calc(100% - 300px);
+    height: 240px;
+    margin-left: 10px;
+    background-color:#3F888F;
+    border-radius: 30px;
+}
+#commento{
+	border:medium;
+	border-color:white;
+	border-radius:20px;
+	height:150px;
+	text-align:left;
+	background-color:#3F888F;
+	color:white;
+	padding-left:10px;
+}
+#commento::placeholder{
+	color:white;
+	padding-left:10px;
+}
+#headercommento
+{
+	
+	height:30%;
+	border:medium;
+	border-color:white;
+	border-radius:20px;
+	text-align:inherit;
+	background-color:rgb(12,105,145);
+
+}
+
+#testocommento{
+	margin-top:50px;
+	border:medium;
+	border-color:white;
+	border-radius:20px;
+	text-align:inherit;
+	background-color: inherit;
+	padding-left:10px;	
+}
